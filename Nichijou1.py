@@ -1,4 +1,10 @@
-print ("           /                  :^          \     ")  
+from rich.console import Console
+from rich.text import Text
+
+console = Console()
+text = Text()
+text.append(r"           /                  :^          \     ", style="#df8e49")
+console.print(text)
 print ("         /                  .:.~      !     \   ")
 print ("        /            .   .:^:  ~     ^ ^.     ~~  ")
 print ("       |            .!. .^^....~   .~  .~  :   ^~ ")
@@ -26,5 +32,3 @@ print ("             /          ~:                        ")
 print ("            ^           !                         ")
 print ("           /           ^^                         ")
 print ("           ^          .!                          ")
-print ("          /           !:                          ")
-print ("         .           :!")
