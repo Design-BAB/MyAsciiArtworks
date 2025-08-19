@@ -5,9 +5,11 @@ console = Console()
 text = Text()
 # Append a raw string (r"…") to the Text object with a specific color style.
 # The 'r' before the string makes it a raw string literal (backslashes are not treated as escape characters).
-text.append(r"           /                  :^          \     ", style="#df8e49")
+text.append(r"           /                  :^          \ ", style="#df8e49")
 text.append("\n")
-text.append(r"         /                  .:.~      !     \ ", style="#df8e49")
+text.append(r"         /                  .:.~      !     \   ", style="#df8e49")
+text.append("\n")
+text.append(r"        /            .   .:^:  ~     ^ ^.     ~~ ", style="#df8e49")
 console.print(text)
 print ("         /                  .:.~      !     \   ")
 print ("        /            .   .:^:  ~     ^ ^.     ~~  ")
